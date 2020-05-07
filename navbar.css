@@ -1,0 +1,41 @@
+#logo img{
+    width: 50%;
+}
+
+button.navbar-toggler.float-right {
+    margin-top: -40px;
+    margin-right: 5px;
+}
+.second{
+    left: 102%;
+    top: -3px;
+}
+.nav{
+    background: #f7f8fa !important;
+    
+    
+}
+.dropdown-toggle::after {
+    border: none;
+    font: normal normal normal 12px/1 'Font Awesome 5 Free';
+    content: "";
+    vertical-align: 0;
+  }
+  li.nav-item a{
+      color: black !important;
+  }  
+li.nav-item.active a {
+    border-radius: 18px;
+    background: #316DC3;
+    color: white !important;
+    padding: 6px 16px 6px 16px !important;
+}
+li.nav-item:hover a:not(.dropdown-item) {
+    border-radius: 18px;
+    background: #316DC3;
+    color: white !important;
+    padding: 6px 16px 6px 16px !important;
+}
+li.nav-item {
+    margin-left: 13px;
+}
